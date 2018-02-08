@@ -1,0 +1,186 @@
+body {
+  /* background-image: url(https://s-media-cache-ak0.pinimg.com/originals/59/cb/fc/59cbfcaabe0e4dd19ae41ce91b59f7cf.jpg); */
+}
+ .p {
+   margin-bottom: 0em;
+ }
+
+ .p-result {
+   margin-bottom: 1em;
+ }
+.p-notes {
+  margin-top: 1em;
+  font-size: .5em
+}
+.container-pizza {
+    margin: 0 auto;
+    border: solid;
+    border-radius: 5%;
+    max-width: 20em;
+    float: right;
+    height: 20em;
+    width: 20em;
+    padding-top: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    position: fixed;
+    background-color: white;
+    top: 5%;
+    right: 0;
+    bottom: 100px;
+    left: 50%;
+    overflow: auto;
+}
+
+.container-price {
+  margin: 0 auto;
+  border: solid;
+  border-radius: 5%;
+  max-width: 20em;
+  float: right;
+  height: 20em;
+  width: 20em;
+  padding-top: 5em;
+  padding-left: 2em;
+  position: fixed;
+  background-color: white;
+  top: 50%;
+  right: 0;
+  bottom: 100px;
+  left: 50%;
+  overflow: auto;
+}
+
+.container {
+  float: left;
+  max-width: 50em;
+  margin: 0 auto;
+  padding: 50px 50px;
+  overflow: hidden;
+  /* border: solid; */
+  /* border-radius: 10%; */
+  /* box-shadow: 1px 2px 2px 1px darkgrey; */
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  font-size: 1.2em;
+  font-style: normal;
+  font-variant: normal;
+  /* font-weight: 500; */
+  /* line-height: 26.4px; */
+  background-image: url(https://t3.ftcdn.net/jpg/01/42/00/50/240_F_142005009_EGVgKQJi7nn79CDKv7cQbMZbTv2M6TVA.jpg)
+}
+
+.checkbox .toppings {
+  float: right;
+}
+
+.hidden {
+  display: none;
+}
+
+h1 {
+  text-shadow: 1px 1px 2px darkgrey, 0 0 1em black, 0 0 0.2em white;
+  text-align: center;
+  padding-bottom: 1em;
+  color: black;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  line-height: 26.4px;
+}
+.checkboxes {
+  border: solid .25px #999;;
+  padding: 5px;
+  /* box-shadow: 0px 1px 1px */
+  /* rgba(255,255,2555,0.75), 0px -1px 1px rgba(0,0,0,.75); */
+  border-radius: 5%;
+  /* background-image: url(https://image.freepik.com/free-vector/grey-technology-background_1035-9343.jpg); */
+  background-color: white;
+}
+
+.forms {
+  color: white;
+  border: solid;
+  border-radius: 5%;
+  background-color: black;
+  padding: 1em;
+}
+#form1 {
+  /* Just to center the form on the page */
+  margin: -5 auto;
+  width: 30em;
+  /* To see the outline of the form */
+  padding: 1em;
+  /* border: 1px solid #ccc; */
+  /* border-radius: 1em; */
+  /* box-shadow: 1px 2px 2px 1px darkgrey; */
+  text-overflow: ellipsis;
+  /* background-image: url(http://mapinstitute.org/data/wallpapers/141/im57682363.jpg); */
+}
+
+form div + div {
+  margin-top: 1em;
+}
+
+label {
+  /* To make sure that all labels have the same size and are properly aligned */
+  display: inline-block;
+  width: 10em;
+  text-align: left;
+}
+
+input {
+  width: 3em;
+}
+
+.forms input {
+  width: 25em;
+}
+textarea {
+  /* To make sure that all text fields have the same font settings
+     By default, textareas have a monospace font */
+  font: 1em sans-serif;
+
+  /* To give the same size to all text fields */
+  width: 30em;
+  box-sizing: border-box;
+
+  /* To harmonize the look & feel of text field border */
+  border: 1px solid grey;
+}
+
+input:focus,
+textarea:focus {
+  /* To give a little highlight on active elements */
+  border-color: grey;
+}
+
+input .submit {
+  padding-right: 1em
+  padding ;
+}
+
+textarea {
+  /* To properly align multiline text fields with their labels */
+  vertical-align: top;
+
+  /* To give enough room to type some text */
+  height: 5em;
+}
+
+.button {
+  /* To position the buttons to the same position of the text fields */
+  /* same size as the label elements */
+  padding-top: 0.5em;
+  margin-right: 0.5em;
+  text-align: center;
+}
+
+button {
+  /* This extra margin represent roughly the same space as the space
+     between the labels and their text fields */
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  background-color: red;
+}
