@@ -1,14 +1,11 @@
 document.addEventListener('DOMContentLoaded', function() {
-  // let createDiv = document.createElement('div')
   let form = document.getElementById("form1")
   let deliveryRadio = document.querySelector(".delivery-radio")
   let pickupRadio = document.querySelector(".pickup-radio")
-
   form.addEventListener('submit', pizzaOrder);
   deliveryRadio.addEventListener('click', displayForm);
   pickupRadio.addEventListener('click', hideForm)
 })
-
 
 function displayForm(event) {
   let deliveryRadio = document.querySelector(".delivery-radio")
@@ -87,7 +84,7 @@ function pizzaOrder(event) {
   zipDiv.innerHTML = zip;
   phoneDiv.innerHTML = phoneNum;
   emailDiv.innerHTML = email
-  notesDiv.innerHTML = 'notes:' + notes
+  notesDiv.innerHTML = 'notes: ' + notes
 
   let deliveryRadio = document.querySelector(".delivery-radio")
   if (deliveryRadio.checked && address === "") {
